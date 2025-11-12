@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "nome": "Ana Luiza Martins",
-    "foto": "./images/foto1.jpg",
+    "nome": "Adna Ramos",
+    "foto": "https://randomuser.me/api/portraits/women/30.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -57,12 +57,13 @@
     "areaInteresses": [
       "IA Ética",
       "Data Science"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 2,
-    "nome": "Bruno Ferreira",
-    "foto": "./images/foto2.jpg",
+    "nome": "Silene Mendes",
+    "foto": "https://randomuser.me/api/portraits/women/38.jpg",
     "cargo": "Product Owner",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -117,12 +118,13 @@
     "areaInteresses": [
       "Educação",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 3,
-    "nome": "Camila Rocha",
-    "foto": "./images/foto3.jpg",
+    "nome": "Calvino Rezende",
+    "foto": "https://randomuser.me/api/portraits/men/46.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -177,12 +179,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Educação"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 4,
-    "nome": "Diego Santos",
-    "foto": "./images/foto4.jpg",
+    "nome": "Alder Teixeira",
+    "foto": "https://randomuser.me/api/portraits/men/88.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -237,12 +240,13 @@
     "areaInteresses": [
       "IA Ética",
       "Educação"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 5,
-    "nome": "Eduarda Nunes",
-    "foto": "./images/foto5.jpg",
+    "nome": "Junilvana Moura",
+    "foto": "https://randomuser.me/api/portraits/women/28.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -297,12 +301,13 @@
     "areaInteresses": [
       "IA Ética",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 6,
-    "nome": "Felipe Lima",
-    "foto": "./images/foto6.jpg",
+    "nome": "Almerindo Porto",
+    "foto": "https://randomuser.me/api/portraits/men/41.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -357,12 +362,13 @@
     "areaInteresses": [
       "Educação",
       "Data Science"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 7,
-    "nome": "Gabriela Souza",
-    "foto": "./images/foto7.jpg",
+    "nome": "Procópio Nogueira",
+    "foto": "https://randomuser.me/api/portraits/men/52.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -417,12 +423,13 @@
     "areaInteresses": [
       "IA Ética",
       "Educação"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 8,
-    "nome": "Henrique Oliveira",
-    "foto": "./images/foto8.jpg",
+    "nome": "Arcádio Costa",
+    "foto": "https://randomuser.me/api/portraits/men/16.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -477,12 +484,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "IA Ética"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 9,
-    "nome": "Isabela Mendes",
-    "foto": "./images/foto9.jpg",
+    "nome": "Rói Moraes",
+    "foto": "https://randomuser.me/api/portraits/men/27.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -537,12 +545,13 @@
     "areaInteresses": [
       "IA Ética",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 10,
-    "nome": "João Pereira",
-    "foto": "./images/foto10.jpg",
+    "nome": "Floriana Costa",
+    "foto": "https://randomuser.me/api/portraits/women/70.jpg",
     "cargo": "Product Owner",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -597,12 +606,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 11,
-    "nome": "Karen Duarte",
-    "foto": "./images/foto11.jpg",
+    "nome": "Cenilda Silva",
+    "foto": "https://randomuser.me/api/portraits/women/94.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -657,12 +667,13 @@
     "areaInteresses": [
       "IA Ética",
       "Data Science"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 12,
-    "nome": "Leonardo Ramos",
-    "foto": "./images/foto12.jpg",
+    "nome": "Julião Lopes",
+    "foto": "https://randomuser.me/api/portraits/men/82.jpg",
     "cargo": "Product Owner",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -717,12 +728,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Data Science"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 13,
-    "nome": "Mariana Costa",
-    "foto": "./images/foto13.jpg",
+    "nome": "Alexandro Alves",
+    "foto": "https://randomuser.me/api/portraits/men/81.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -777,12 +789,13 @@
     "areaInteresses": [
       "Data Science",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 14,
-    "nome": "Nicolas Azevedo",
-    "foto": "./images/foto14.jpg",
+    "nome": "Evelásio Jesus",
+    "foto": "https://randomuser.me/api/portraits/men/77.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -837,12 +850,13 @@
     "areaInteresses": [
       "Educação",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 15,
-    "nome": "Olívia Teixeira",
-    "foto": "./images/foto15.jpg",
+    "nome": "Urbino Carvalho",
+    "foto": "https://randomuser.me/api/portraits/men/41.jpg",
     "cargo": "Product Owner",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -897,12 +911,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 16,
-    "nome": "Paulo Henrique",
-    "foto": "./images/foto16.jpg",
+    "nome": "Terumi Martins",
+    "foto": "https://randomuser.me/api/portraits/women/9.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -957,12 +972,13 @@
     "areaInteresses": [
       "Educação",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 17,
-    "nome": "Rafaela Lopes",
-    "foto": "./images/foto17.jpg",
+    "nome": "Ubiara Barros",
+    "foto": "https://randomuser.me/api/portraits/women/61.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1017,12 +1033,13 @@
     "areaInteresses": [
       "Data Science",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 18,
-    "nome": "Samuel Moreira",
-    "foto": "./images/foto18.jpg",
+    "nome": "Jader Moraes",
+    "foto": "https://randomuser.me/api/portraits/men/35.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -1077,12 +1094,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 19,
-    "nome": "Tatiane Faria",
-    "foto": "./images/foto19.jpg",
+    "nome": "Haydée Fogaça",
+    "foto": "https://randomuser.me/api/portraits/women/42.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -1137,12 +1155,13 @@
     "areaInteresses": [
       "IA Ética",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 20,
-    "nome": "Victor Almeida",
-    "foto": "./images/foto20.jpg",
+    "nome": "Edilaine da Cunha",
+    "foto": "https://randomuser.me/api/portraits/women/60.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -1197,12 +1216,13 @@
     "areaInteresses": [
       "IA Ética",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 21,
-    "nome": "Wesley Carvalho",
-    "foto": "./images/foto21.jpg",
+    "nome": "Isolete de Souza",
+    "foto": "https://randomuser.me/api/portraits/women/21.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1257,12 +1277,13 @@
     "areaInteresses": [
       "Data Science",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 22,
-    "nome": "Yasmin Barros",
-    "foto": "./images/foto22.jpg",
+    "nome": "Parcidio da Cunha",
+    "foto": "https://randomuser.me/api/portraits/men/72.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -1317,12 +1338,13 @@
     "areaInteresses": [
       "IA Ética",
       "Educação"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 23,
-    "nome": "Zeca Andrade",
-    "foto": "./images/foto23.jpg",
+    "nome": "Isaac Ramos",
+    "foto": "https://randomuser.me/api/portraits/men/85.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -1377,12 +1399,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 24,
-    "nome": "Beatriz Rocha",
-    "foto": "./images/foto24.jpg",
+    "nome": "Cloé da Cunha",
+    "foto": "https://randomuser.me/api/portraits/women/52.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -1437,12 +1460,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 25,
-    "nome": "Caio Nogueira",
-    "foto": "./images/foto25.jpg",
+    "nome": "Jicely Farias",
+    "foto": "https://randomuser.me/api/portraits/women/28.jpg",
     "cargo": "UX Designer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -1497,12 +1521,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 26,
-    "nome": "Daniela Reis",
-    "foto": "./images/foto26.jpg",
+    "nome": "Omar Martins",
+    "foto": "https://randomuser.me/api/portraits/men/44.jpg",
     "cargo": "Desenvolvedor Mobile",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -1557,12 +1582,13 @@
     "areaInteresses": [
       "IA Ética",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 27,
-    "nome": "Elisa Prado",
-    "foto": "./images/foto27.jpg",
+    "nome": "Catiúcia Moura",
+    "foto": "https://randomuser.me/api/portraits/women/67.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -1617,12 +1643,13 @@
     "areaInteresses": [
       "Educação",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 28,
-    "nome": "Fábio Torres",
-    "foto": "./images/foto28.jpg",
+    "nome": "Felicíssimo Nunes",
+    "foto": "https://randomuser.me/api/portraits/men/1.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1677,12 +1704,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Data Science"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 29,
-    "nome": "Giovana Martins",
-    "foto": "./images/foto29.jpg",
+    "nome": "Isabete Pereira",
+    "foto": "https://randomuser.me/api/portraits/women/62.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1737,12 +1765,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 30,
-    "nome": "Heitor Alves",
-    "foto": "./images/foto30.jpg",
+    "nome": "Tucha Martins",
+    "foto": "https://randomuser.me/api/portraits/women/40.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1797,12 +1826,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 31,
-    "nome": "Igor Nascimento",
-    "foto": "./images/foto31.jpg",
+    "nome": "Cristiana Fogaça",
+    "foto": "https://randomuser.me/api/portraits/women/83.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1857,12 +1887,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 32,
-    "nome": "Jéssica Carvalho",
-    "foto": "./images/foto32.jpg",
+    "nome": "Estácio Santos",
+    "foto": "https://randomuser.me/api/portraits/men/98.jpg",
     "cargo": "Desenvolvedor Full Stack",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -1917,12 +1948,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "IA Ética"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 33,
-    "nome": "Kauã Silva",
-    "foto": "./images/foto33.jpg",
+    "nome": "Geane Moreira",
+    "foto": "https://randomuser.me/api/portraits/women/49.jpg",
     "cargo": "Desenvolvedor Full Stack",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -1977,12 +2009,13 @@
     "areaInteresses": [
       "Educação",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 34,
-    "nome": "Larissa Moreira",
-    "foto": "./images/foto34.jpg",
+    "nome": "Núbia Carvalho",
+    "foto": "https://randomuser.me/api/portraits/women/6.jpg",
     "cargo": "Especialista em Marketing Digital",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -2037,12 +2070,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 35,
-    "nome": "Matheus Oliveira",
-    "foto": "./images/foto35.jpg",
+    "nome": "Rosana Gonçalves",
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg",
     "cargo": "Product Owner",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2097,12 +2131,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 36,
-    "nome": "Natália Correia",
-    "foto": "./images/foto36.jpg",
+    "nome": "Henoch Sales",
+    "foto": "https://randomuser.me/api/portraits/men/99.jpg",
     "cargo": "Gerente de Projetos",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -2157,12 +2192,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 37,
-    "nome": "Otávio Sousa",
-    "foto": "./images/foto37.jpg",
+    "nome": "Irmino Novaes",
+    "foto": "https://randomuser.me/api/portraits/men/6.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -2217,12 +2253,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Tecnologia Sustentável"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 38,
-    "nome": "Priscila Mendes",
-    "foto": "./images/foto38.jpg",
+    "nome": "Aline Pinto",
+    "foto": "https://randomuser.me/api/portraits/women/41.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -2277,12 +2314,13 @@
     "areaInteresses": [
       "Data Science",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 39,
-    "nome": "Rafael Monteiro",
-    "foto": "./images/foto39.jpg",
+    "nome": "Maximiano Almeida",
+    "foto": "https://randomuser.me/api/portraits/men/13.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -2337,12 +2375,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 40,
-    "nome": "Sabrina Pires",
-    "foto": "./images/foto40.jpg",
+    "nome": "Alvani Rezende",
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -2397,12 +2436,13 @@
     "areaInteresses": [
       "IA Ética",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 41,
-    "nome": "Thiago Barbosa",
-    "foto": "./images/foto41.jpg",
+    "nome": "Darilha da Rosa",
+    "foto": "https://randomuser.me/api/portraits/women/94.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2457,12 +2497,13 @@
     "areaInteresses": [
       "IA Ética",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 42,
-    "nome": "Ursula Duarte",
-    "foto": "./images/foto42.jpg",
+    "nome": "Clemêncio Castro",
+    "foto": "https://randomuser.me/api/portraits/men/57.jpg",
     "cargo": "Desenvolvedor Mobile",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -2517,12 +2558,13 @@
     "areaInteresses": [
       "Data Science",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 43,
-    "nome": "Vinícius Gomes",
-    "foto": "./images/foto43.jpg",
+    "nome": "Saula Caldeira",
+    "foto": "https://randomuser.me/api/portraits/women/76.jpg",
     "cargo": "Especialista em Marketing Digital",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -2577,12 +2619,13 @@
     "areaInteresses": [
       "Educação",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 44,
-    "nome": "William Fernandes",
-    "foto": "./images/foto44.jpg",
+    "nome": "Emanuele Oliveira",
+    "foto": "https://randomuser.me/api/portraits/women/24.jpg",
     "cargo": "Desenvolvedor Full Stack",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -2637,12 +2680,13 @@
     "areaInteresses": [
       "Data Science",
       "Educação"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 45,
-    "nome": "Xavier Costa",
-    "foto": "./images/foto45.jpg",
+    "nome": "Oseias Duarte",
+    "foto": "https://randomuser.me/api/portraits/men/49.jpg",
     "cargo": "Especialista em Marketing Digital",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -2697,12 +2741,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Data Science"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 46,
-    "nome": "Yuri Almeida",
-    "foto": "./images/foto46.jpg",
+    "nome": "Valdomiro Fogaça",
+    "foto": "https://randomuser.me/api/portraits/men/28.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -2757,12 +2802,13 @@
     "areaInteresses": [
       "Educação",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 47,
-    "nome": "Zilda Marques",
-    "foto": "./images/foto47.jpg",
+    "nome": "Kleianne da Rosa",
+    "foto": "https://randomuser.me/api/portraits/women/45.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2817,12 +2863,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Data Science"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 48,
-    "nome": "Clara Ribeiro",
-    "foto": "./images/foto48.jpg",
+    "nome": "Janice da Conceição",
+    "foto": "https://randomuser.me/api/portraits/women/96.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -2877,12 +2924,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 49,
-    "nome": "Davi Teles",
-    "foto": "./images/foto49.jpg",
+    "nome": "Gabriela da Cruz",
+    "foto": "https://randomuser.me/api/portraits/women/24.jpg",
     "cargo": "Especialista em Marketing Digital",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -2937,12 +2985,13 @@
     "areaInteresses": [
       "Data Science",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 50,
-    "nome": "Emanuel Martins",
-    "foto": "./images/foto50.jpg",
+    "nome": "Godofreda Cardoso",
+    "foto": "https://randomuser.me/api/portraits/women/90.jpg",
     "cargo": "Desenvolvedor Mobile",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -2997,12 +3046,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 51,
-    "nome": "Fernanda Luz",
-    "foto": "./images/foto51.jpg",
+    "nome": "Cristiane Lopes",
+    "foto": "https://randomuser.me/api/portraits/women/73.jpg",
     "cargo": "Desenvolvedor Mobile",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -3057,12 +3107,13 @@
     "areaInteresses": [
       "Cultura Ágil",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 52,
-    "nome": "Gustavo Ramos",
-    "foto": "./images/foto52.jpg",
+    "nome": "Zenira Pires",
+    "foto": "https://randomuser.me/api/portraits/women/47.jpg",
     "cargo": "Analista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -3117,12 +3168,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Data Science"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 53,
-    "nome": "Helena Viana",
-    "foto": "./images/foto53.jpg",
+    "nome": "Vilator Nascimento",
+    "foto": "https://randomuser.me/api/portraits/men/5.jpg",
     "cargo": "Desenvolvedor Full Stack",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "São Paulo/SP",
@@ -3177,12 +3229,13 @@
     "areaInteresses": [
       "Educação",
       "Data Science"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 54,
-    "nome": "Inácio Lopes",
-    "foto": "./images/foto54.jpg",
+    "nome": "Válter Araújo",
+    "foto": "https://randomuser.me/api/portraits/men/56.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -3237,12 +3290,13 @@
     "areaInteresses": [
       "IA Ética",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 55,
-    "nome": "Joana Silva",
-    "foto": "./images/foto55.jpg",
+    "nome": "Valdirene Ribeiro",
+    "foto": "https://randomuser.me/api/portraits/women/77.jpg",
     "cargo": "Desenvolvedor Full Stack",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Florianópolis/SC",
@@ -3297,12 +3351,13 @@
     "areaInteresses": [
       "Educação",
       "IA Ética"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 56,
-    "nome": "Lucas Andrade",
-    "foto": "./images/foto56.jpg",
+    "nome": "Isidro Nogueira",
+    "foto": "https://randomuser.me/api/portraits/men/81.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -3357,12 +3412,13 @@
     "areaInteresses": [
       "IA Ética",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 57,
-    "nome": "Marcela Dias",
-    "foto": "./images/foto57.jpg",
+    "nome": "Divo Souza",
+    "foto": "https://randomuser.me/api/portraits/men/27.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -3417,12 +3473,13 @@
     "areaInteresses": [
       "Educação",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 58,
-    "nome": "Pedro Correia",
-    "foto": "./images/foto58.jpg",
+    "nome": "Sidónio Freitas",
+    "foto": "https://randomuser.me/api/portraits/men/68.jpg",
     "cargo": "Engenheiro de Software",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Curitiba/PR",
@@ -3477,12 +3534,13 @@
     "areaInteresses": [
       "Tecnologia Sustentável",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "male"
   },
   {
     "id": 59,
-    "nome": "Renata Moura",
-    "foto": "./images/foto59.jpg",
+    "nome": "Luzia Souza",
+    "foto": "https://randomuser.me/api/portraits/women/67.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Porto Alegre/RS",
@@ -3537,12 +3595,13 @@
     "areaInteresses": [
       "Acessibilidade Digital",
       "Cultura Ágil"
-    ]
+    ],
+    "genero": "female"
   },
   {
     "id": 60,
-    "nome": "Sofia Reis",
-    "foto": "./images/foto60.jpg",
+    "nome": "Verônica Aragão",
+    "foto": "https://randomuser.me/api/portraits/women/88.jpg",
     "cargo": "DevOps Engineer",
     "resumo": "Profissional com experiência em projetos tecnológicos e inovação.",
     "localizacao": "Belo Horizonte/MG",
@@ -3597,6 +3656,7 @@
     "areaInteresses": [
       "IA Ética",
       "Acessibilidade Digital"
-    ]
+    ],
+    "genero": "female"
   }
 ]
