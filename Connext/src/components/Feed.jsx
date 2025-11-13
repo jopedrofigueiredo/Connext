@@ -1,5 +1,6 @@
 import CardPerfil from "./CardPerfil"
 import { useState, useEffect } from "react"
+import ModalDados from "./ModalDados";
 
 export default function Feed() {
     const [perfis, setPerfis] = useState([]);
@@ -12,17 +13,25 @@ export default function Feed() {
     }, []);
 
     return (
-        <section className="flex justify-center w-max-8xl my-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+        <section className="flex flex-col items-center my-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 max-w-[1600px]">
                 {perfis.map((key) => (
-                    <CardPerfil id={key.id}
+                    <ModalDados id={key.id}
                                 nome={key.nome} 
                                 foto={key.foto} 
                                 cargo={key.cargo} 
                                 skills={key.resumo}
-                            />)
-                        )
-                }
+                                localizacao={key.localizacao}
+                                area={key.area}
+                                habilidadesTecnicas={key.habilidadesTecnicas}
+                                softSkills={key.softSkills}
+                                experiencias={key.experiencias}
+                                formacao={key.formacao}
+                                projetos={key.projetos}
+                                idiomas={key.idiomas}
+                                areaInteresses={key.areaInteresses}
+                            />
+                ))}
             </div>
         </section>
     )
