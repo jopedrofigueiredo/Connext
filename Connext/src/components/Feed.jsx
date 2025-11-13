@@ -1,6 +1,6 @@
 import CardPerfil from "./CardPerfil"
 import { useState, useEffect } from "react"
-import ModalDados from "./ModalDados";
+import ModalPerfil from "./ModalPerfil";
 
 export default function Feed() {
     const [perfis, setPerfis] = useState([]);
@@ -16,7 +16,7 @@ export default function Feed() {
         <section className="flex flex-col items-center my-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 max-w-[1600px]">
                 {perfis.map((key) => (
-                    <ModalDados id={key.id}
+                    <ModalPerfil id={key.id}
                                 nome={key.nome} 
                                 foto={key.foto} 
                                 cargo={key.cargo} 
