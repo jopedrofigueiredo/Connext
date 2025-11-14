@@ -1,6 +1,7 @@
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger,} from "@/components/ui/dialog"
 import CardPerfil from "./CardPerfil"
 import DadosModal from "./DadosModal"
+import ToogleBarPerfil from "./ToogleBarPerfil"
 
 export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresses}) {
 
@@ -13,10 +14,16 @@ export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao,
         <DialogHeader className="mt-3 flex-col">
           <div className="flex flex-row">
             <img className="rounded-full w-25 h-25"src="https://img.freepik.com/fotos-gratis/fundo-texturizado-abstrato_1258-30461.jpg" alt="Foto Usuário" />
-            <DialogTitle className="ml-4 h-fit">{nome}</DialogTitle>
+            <div className="flex flex-col items-center w-full just">
+              <DialogTitle className="flex flex-col justify-center">{nome}</DialogTitle>
+              <div className="h-full flex items-center">
+                <ToogleBarPerfil />
+              </div>
+            </div>
           </div>
           <h2 className="font-medium">{cargo}</h2>
           <DialogDescription>
+            <p>{skills}</p>
           </DialogDescription>
         </DialogHeader>
 

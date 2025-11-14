@@ -43,7 +43,7 @@ export default function DadosModal({localizacao, area, habilidadesTecnicas, soft
                     <div key={i}>
                         <li><span className="font-medium">Curso:</span> {formacao.curso}</li>
                         <li><span className="font-medium">Instituição:</span> {formacao.instituicao}</li>
-                        <li><span className="font-medium">Conclusão:</span> {formacao.instituicao}</li>
+                        <li><span className="font-medium">Conclusão:</span> {formacao.ano}</li>
                     </div>
                 ))}
                 </ul>
@@ -68,10 +68,10 @@ export default function DadosModal({localizacao, area, habilidadesTecnicas, soft
             </div>
             <div id="idiomas">
                 <h3 className="font-semibold text-xl">Línguas</h3>
-                <ul className="flex flex-col gap-2">{idiomas.map((idioma, i) => (
+                <ul className="flex flex-col gap-1">{idiomas.map((idioma, i) => (
                     <div key={i}>
-                            <li>Idioma: {idioma.idioma}</li>
-                            <li>Nível: {idioma.nivel}</li>
+                            <li><span className="font-medium">Idioma:</span> {idioma.idioma}</li>
+                            <li><span className="font-medium">Nível:</span> {idioma.nivel}</li>
                     </div>
                     ))}
                 </ul>
