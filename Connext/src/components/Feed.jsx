@@ -28,6 +28,7 @@ export default function Feed() {
                                 experiencias={key.experiencias}
                                 formacao={key.formacao}
                                 projetos={key.projetos}
+                                certificacoes={key.certificacoes}
                                 idiomas={key.idiomas}
                                 areaInteresses={key.areaInteresses}
                             />
