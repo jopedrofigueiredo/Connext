@@ -2,6 +2,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import CardPerfil from "./CardPerfil"
 import DadosModal from "./DadosModal"
 import ToogleBarPerfil from "./ToogleBarPerfil"
+import ModalMensagem from "./ModalMensagem"
 
 export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresses}) {
 

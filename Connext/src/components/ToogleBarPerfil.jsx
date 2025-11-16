@@ -1,9 +1,12 @@
 import { ThumbsUpIcon, BookmarkIcon, MessageCircleIcon } from "lucide-react"
 import { ToggleGroup, ToggleGroupItem, } from "@/components/ui/toggle-group"
+import ModalMensagem from "./ModalMensagem"
+import { Dialog, DialogTrigger,} from "@/components/ui/dialog"
 
 export default function ToogleBarPerfil() {
-    
+
     return (
+      <Dialog>
         <ToggleGroup type="multiple" variant="outline" spacing={2} size="lg">
                 <ToggleGroupItem
                   value="ThumbsUp"
@@ -13,13 +16,15 @@ export default function ToogleBarPerfil() {
                   <ThumbsUpIcon />
                   
                 </ToggleGroupItem>
+                <DialogTrigger asChild>
                 <ToggleGroupItem
                   value="MessageCircle"
                   aria-label="Toggle MessageCircle"
                 >
-                  <MessageCircleIcon />
-                  
+                <MessageCircleIcon/>  
+
                 </ToggleGroupItem>
+                </DialogTrigger>
                 <ToggleGroupItem
                   value="bookmark"
                   aria-label="Toggle bookmark"
@@ -29,5 +34,8 @@ export default function ToogleBarPerfil() {
                   
                 </ToggleGroupItem>
               </ToggleGroup>
+
+              <ModalMensagem />
+    </Dialog>
     )
 }
