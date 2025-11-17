@@ -10,25 +10,16 @@ export default function ModalMensagem() {
     return (
           <DialogContent className="sm:max-w-md">
             <DialogHeader>
-              <DialogTitle></DialogTitle>
+              <DialogTitle>Entre em contato</DialogTitle>
               <DialogDescription>
+                Este usuário receberá uma solicitação de mensagem sua, e poderá aceitar ou recusar.
               </DialogDescription>
             </DialogHeader>
             <div className="flex items-center gap-2">
-              <div className="grid flex-1 gap-2">
-                <Label htmlFor="link" className="sr-only">
-                  Link
-                </Label>
-                <Input/>
+              <div className="flex flex-row gap-2 w-full">
+                <Input className=" "/>
                 <Button type="button" variant="secondary">
-                  <Toggle
-                   aria-label="Toggle bookmark"
-                   size="sm"
-                   variant="outline"
-                   className="data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-blue-500 data-[state=on]:*:[svg]:stroke-blue-500"
-                  >
                     <SendHorizontal />
-                    </Toggle>
                 </Button>
               </div>
             </div>
