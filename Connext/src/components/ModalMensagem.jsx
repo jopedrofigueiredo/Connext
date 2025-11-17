@@ -7,9 +7,12 @@ import AlertSucesso from "./ui/AlertSucesso"
 
 export default function ModalMensagem() {
     const [showAlert, setShowAlert] = useState(false)
+    const [mensagemValue, setMensagemValue] = useState("")
 
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
+      e.preventDefault()
       setShowAlert(true)
+      setMensagemValue("")
     
       setTimeout(() => {
         setShowAlert(false)
@@ -29,9 +32,9 @@ export default function ModalMensagem() {
               </DialogDescription>
             </DialogHeader>
             <div className="flex items-center gap-2">
-              <form className="flex flex-row gap-2 w-full">
-                <Input className=""/>
-                <Button type="button" variant="secondary" onClick={handleSubmit}>
+              <form className="flex flex-row gap-2 w-full" onSubmit={handleSubmit}>
+                <Input value={mensagemValue} onChange={(e) => setMensagemValue(e.target.value)}/>
+                <Button type="submit" variant="secondary">
                     <SendHorizontal />
                 </Button>
               </form>
