@@ -2,9 +2,10 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, Di
 import CardPerfil from "./CardPerfil"
 import DadosModal from "./DadosModal"
 import ToogleBarPerfil from "./ToogleBarPerfil"
-import ModalMensagem from "./ModalMensagem"
+import { useState } from "react"
 
 export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao, area, habilidadesTecnicas, softSkills, experiencias, formacao, projetos, certificacoes, idiomas, areaInteresses}) {
+  const [toogleValues, setToogleValues] = useState([])
 
     return (
     <Dialog>
@@ -18,7 +19,9 @@ export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao,
             <div className="flex flex-col items-center w-full just">
               <DialogTitle className="flex flex-col justify-center">{nome}</DialogTitle>
               <div className="h-full flex items-center">
-                <ToogleBarPerfil />
+                <ToogleBarPerfil toogleValues={toogleValues}
+                                 onToogleChange={setToogleValues}          
+                />
               </div>
             </div>
           </div>
