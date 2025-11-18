@@ -1,15 +1,14 @@
-import { useState } from 'react'
 import Header from './components/Header'
-import CardPerfil from './components/CardPerfil'
 import Feed from './components/Feed'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Header />
       <Feed />
+      <Footer />
     </>
   )
 }
