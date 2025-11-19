@@ -1,4 +1,3 @@
-import CardPerfil from "./CardPerfil"
 import { useState, useEffect } from "react"
 import ModalPerfil from "./ModalPerfil";
 
@@ -6,7 +5,7 @@ export default function Feed() {
     const [perfis, setPerfis] = useState([]);
     
     useEffect(() => {
-        fetch("../../public/perfis.json")
+        fetch("/perfis.json")
             .then(res => res.json())
             .then(data => setPerfis(data))
             .catch(err => console.error("Erro ao carregar os perfis:", err));  
