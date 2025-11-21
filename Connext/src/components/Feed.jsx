@@ -25,7 +25,8 @@ export default function Feed() {
         p.nome.toLowerCase().includes(busca.toLowerCase()) ||
         p.cargo.toLowerCase().includes(busca.toLowerCase()) ||
         p.localizacao.toLowerCase().includes(busca.toLowerCase()) ||
-        p.area.toLowerCase().includes(busca.toLowerCase())
+        p.area.toLowerCase().includes(busca.toLowerCase()) ||
+        p.habilidadesTecnicas.some((item) => item.toLowerCase().includes(busca.toLowerCase()))
        )
        setPerfisFiltrados(filtrados)
     }, [busca])
