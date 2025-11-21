@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import ModalPerfil from "./ModalPerfil";
 import InputBusca from "./InputBusca";
+import MsgSemResultado from "./MsgSemResultado";
 
 export default function Feed() {
     const [perfis, setPerfis] = useState([]);
@@ -38,26 +39,30 @@ export default function Feed() {
                                 value={busca} 
                                 onChange={(e) => setBusca(e.target.value)}/>
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
-                    {perfisFiltrados.map((key) => (
-                        <ModalPerfil id={key.id}
-                                     nome={key.nome} 
-                                     foto={key.foto} 
-                                     cargo={key.cargo} 
-                                     skills={key.resumo}
-                                     localizacao={key.localizacao}
-                                     area={key.area}
-                                     habilidadesTecnicas={key.habilidadesTecnicas}
-                                     softSkills={key.softSkills}
-                                     experiencias={key.experiencias}
-                                     formacao={key.formacao}
-                                     projetos={key.projetos}
-                                     certificacoes={key.certificacoes}
-                                     idiomas={key.idiomas}
-                                     areaInteresses={key.areaInteresses}
-                                />
-                    ))}
-                </div>
+                {perfisFiltrados.length > 0 ? (
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
+                        {perfisFiltrados.map((key) => (
+                            <ModalPerfil id={key.id}
+                                         nome={key.nome} 
+                                         foto={key.foto} 
+                                         cargo={key.cargo} 
+                                         skills={key.resumo}
+                                         localizacao={key.localizacao}
+                                         area={key.area}
+                                         habilidadesTecnicas={key.habilidadesTecnicas}
+                                         softSkills={key.softSkills}
+                                         experiencias={key.experiencias}
+                                         formacao={key.formacao}
+                                         projetos={key.projetos}
+                                         certificacoes={key.certificacoes}
+                                         idiomas={key.idiomas}
+                                         areaInteresses={key.areaInteresses}
+                                    />
+                            ))}
+                        </div>
+                    ) : (
+                        <MsgSemResultado />
+                )}
             </div>
         </section>
     )
