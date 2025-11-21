@@ -35,7 +35,7 @@ export default function Feed() {
             <div className="max-w-[1600px] px-3">
                 <div className="w-full flex flex-col  items-center lg:gap-3">
                     <h2 className="text-xl xxs:text-2xl xs:text-3xl font-bold sm:text-4xl lg:my-8 text-nowrap">Descubra Outros Profissionais</h2>
-                    <InputBusca classname="my-5 p-6 rounded-3xl" 
+                    <InputBusca classname="my-5 p-6 rounded-3xl border-gray-300 border-3 input-focusSky transition-colors" 
                                 value={busca} 
                                 onChange={(e) => setBusca(e.target.value)}/>
                 </div>

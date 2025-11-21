@@ -23,7 +23,7 @@ export default function ToogleBarPerfil({toogleValues, onToogleChange}) {
           <ToggleGroupItem
             value="ThumbsUp"
             aria-label="toogle Thumbsup"
-            className={`data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-black data-[state=on]:*:[svg]:stroke-black`}
+            className={`data-[state=on]:bg-transparent data-[state=on]:*:[svg]:fill-black dark:data-[state=on]:*:[svg]:fill-white data-[state=on]:*:[svg]:stroke-black `}
             onClick={handleCurtida}
             
           >

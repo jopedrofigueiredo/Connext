@@ -15,7 +15,7 @@ export default function ModalPerfil({id, nome, foto, cargo, skills, localizacao,
       <DialogContent>
         <DialogHeader className="mt-3 flex-col">
           <div className="flex flex-row">
-            <img className="rounded-full w-25 h-25"src="https://img.freepik.com/fotos-gratis/fundo-texturizado-abstrato_1258-30461.jpg" alt="Foto Usuário" />
+            <img className="rounded-full w-25 h-25 border-3 border-sky-600"src={foto} alt="Foto Usuário" />
             <div className="flex flex-col items-center w-full just">
               <DialogTitle className="flex flex-col justify-center">{nome}</DialogTitle>
               <div className="h-full flex items-center">
